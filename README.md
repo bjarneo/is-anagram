@@ -20,8 +20,8 @@ const isAnagram = require('is-anagram');
 
 isAnagram('silent', 'listen')           // true
 isAnagram('rail safety', 'fairy tales') // true
-isAnagram('silent', 'lamb')             // true
-isAnagram('silent', [])                 // true
+isAnagram('silent', 'lamb')             // false
+isAnagram('silent', [])                 // false
 ```
 
 Test
