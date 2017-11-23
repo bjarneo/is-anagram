@@ -1,6 +1,6 @@
 {
   "name": "is-anagram",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Check if two words are anagrams",
   "main": "index.js",
   "dependencies": {},
