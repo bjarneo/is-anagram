@@ -1,0 +1,33 @@
+{
+  "name": "is-anagram",
+  "version": "1.0.0",
+  "description": "Check if two words are anagrams",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.23.0"
+  },
+  "scripts": {
+    "test": "ava",
+    "test-watch": "ava --watch",
+    "prepublish": "npm test"
+  },
+  "keywords": [
+    "word",
+    "words",
+    "anagram",
+    "anagrams",
+    "isAnagram",
+    "is-anagram"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bjarneo/is-anagram.git"
+  },
+  "homepage": "https://github.com/bjarneo/is-anagram",
+  "bugs": {
+    "url": "https://github.com/bjarneo/is-anagram/issues"
+  },
+  "author": "Bjarne Oeverli",
+  "license": "MIT"
+}
