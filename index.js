@@ -3,7 +3,7 @@
  *
  * @param {string} str The main word / phrase 
  * @param {number} cmp The word / phrase to compare
- * @return {bool} if the two words / phrases are anagrams
+ * @return {boolean} if the two words / phrases are anagrams
  */
 module.exports = function isAnagram(str, cmp) {
     if (typeof str !== 'string' || typeof cmp !== 'string') {
