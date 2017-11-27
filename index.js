@@ -23,10 +23,13 @@ module.exports = function isAnagram(str, cmp) {
         return false;
     }
 
-    const isAna = mainWord.some(char => cmpWord.indexOf(char) > -1);
+    let i = 0;
+    while (i < mainWord.length) {
+        if (cmpWord.indexOf(mainWord[i]) === -1) {
+            return false;
+        }
 
-    if (!isAna) {
-        return false;
+        i++;
     }
 
     return true;

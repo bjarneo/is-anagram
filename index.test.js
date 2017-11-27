@@ -8,4 +8,6 @@ test(t => t.true(isAnagram('rail safety', 'fairy tales')));
 
 test(t => t.false(isAnagram('silent', 'lamb')));
 
+test(t => t.false(isAnagram('akte', 'alle')));
+
 test(t => t.false(isAnagram('silent', true)));
