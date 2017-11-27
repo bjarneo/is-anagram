@@ -25,7 +25,7 @@ module.exports = function isAnagram(str, cmp) {
 
     let i = 0;
     while (i < mainWord.length) {
-        if (cmpWord.indexOf(mainWord[i]) === -1) {
+        if (mainWord[i] !== cmpWord[i]) {
             return false;
         }
 
